@@ -1,0 +1,58 @@
+{
+  "name": "portofolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "vue-cli-service serve --port 3000",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "prettier-format": "prettier --write ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.5",
+    "bulma": "^0.8.2",
+    "core-js": "^3.18.3",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.14",
+    "@vue/cli-plugin-eslint": "^4.5.14",
+    "@vue/cli-service": "^4.5.14",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
+    "prettier": "^2.4.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "lint-staged": {
+    "*.+(js|json|md|vue)": "prettier --config .prettierrc --write ."
+  }
+}
