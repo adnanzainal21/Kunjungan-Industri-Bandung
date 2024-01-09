@@ -2,9 +2,9 @@
   <footer class="footer has-background-dark has-text-light">
     <div class="content has-text-centered">
       <p>
-        Designed and built by
+        DiBuat Oleh 
         <a class="has-text-light" href="https://github.com/adnanzainal21"
-          ><i>Miftahul Arifin</i>.</a
+          ><i>Adnan Zainal Arifin</i>.</a
         >
       </p>
     </div>

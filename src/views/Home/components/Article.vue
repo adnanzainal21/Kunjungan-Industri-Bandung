@@ -2,7 +2,7 @@
   <section class="hero is-light">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <div class="title has-text-dark">PT Primarindo Asia Infrastructure Tbk</div>
+        <div class="title has-text-dark">Kunjungan Industri Spandela</div>
         <hr class="border-line has-background-dark" />
         <div class="content">
           <ItemArticle v-for="item in articles" :key="item.id" :item="item" />

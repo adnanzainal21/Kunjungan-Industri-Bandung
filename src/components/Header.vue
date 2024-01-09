@@ -30,8 +30,8 @@
       >
         <div class="navbar-end">
           <a class="navbar-item" href="/#about">About</a>
-          <a class="navbar-item" href="/#project">Articles</a>
-          <a class="navbar-item" href="/#article">Documentation</a>
+          <a class="navbar-item" href="/#project">Documentation </a>
+          <a class="navbar-item" href="/#article">Articles</a>
           <a class="navbar-item" href="https://github.com/adnanzainal21">Me Adnan</a>
         </div>
       </div>

@@ -8,20 +8,6 @@
           {{ profile ? profile.intro : '' }}
         </div>
         <hr class="border-line min has-background-white" />
-        <!-- <div class="social-links has-text-light">
-          <a :href="profile ? profile.social.github : ''" target="_blank">
-            <font-awesome-icon :icon="['fab', 'github']" size="lg" />
-          </a>
-          <a :href="profile ? profile.social.linkedin : ''" target="_blank">
-            <font-awesome-icon :icon="['fab', 'linkedin']" size="lg" />
-          </a>
-          <a :href="profile ? profile.social.twitter : ''" target="_blank">
-            <font-awesome-icon :icon="['fab', 'twitter']" size="lg" />
-          </a>
-          <a :href="profile ? profile.social.dev : ''" target="_blank">
-            <font-awesome-icon :icon="['fab', 'dev']" size="lg" />
-          </a>
-        </div> -->
       </div>
     </div>
   </section>
