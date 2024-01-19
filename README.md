@@ -1,4 +1,4 @@
-# Kunjungan Industri SMK Pancasila 8 Slogohimo
+# Website Kunjungan Industri SMK Pancasila 8 Slogohimo
 
 ## Me adnanzainal21
 
